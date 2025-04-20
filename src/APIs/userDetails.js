@@ -3,7 +3,7 @@ import axios from "axios";
 export const getUserDetails = async () => {
     try {
         console.log("Server url : ", import.meta.env.VITE_SERVER_URL);
-        const response = await axios.get(`${import.meta.env.VITE_SERVER_URL}/api/getUserDetails`, {
+        const response = await axios.get(`https://deepfakedetection-new.onrender.com/api/getUserDetails`, {
             withCredentials: true,
         });
         console.log(response);
