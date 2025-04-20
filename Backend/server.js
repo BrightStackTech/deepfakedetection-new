@@ -27,6 +27,7 @@ mongoose
   });
 
 const app = express();
+app.set('trust proxy', true);
 const port = process.env.PORT || 5000;
 
 app.use(express.json({ limit: "50mb" }));
