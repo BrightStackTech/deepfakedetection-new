@@ -7,6 +7,7 @@ import {
   FaDiscord, FaPinterest, FaTelegram, FaTwitch 
 } from "react-icons/fa";
 
+
 const socialIcons = [
   { icon: <FaFacebook size={40} className="text-blue-500 glowing-icon" />, style: 'top-[15%] left-[5%]' },
   { icon: <FaTwitter size={40} className="text-blue-400 glowing-icon" />, style: 'top-[15%] right-[15%]' },
